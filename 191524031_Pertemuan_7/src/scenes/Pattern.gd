@@ -12,7 +12,7 @@ func _draw():
 
 		var start = rotate_point(tip, center, degree)
 
-		draw_pattern(start, Color(0, 0, 1), degree)
+		draw_pattern(start, Color(59/255, 66/255, 82/255), degree)
 
 
 func _on_Button_pressed():
