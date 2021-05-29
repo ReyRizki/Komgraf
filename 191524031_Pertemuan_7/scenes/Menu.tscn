@@ -7,7 +7,7 @@
 script = ExtResource( 1 )
 
 [node name="background" type="Sprite" parent="."]
-position = Vector2( -27, 0.25992 )
+position = Vector2( -27, -0.999998 )
 scale = Vector2( 0.280271, 0.280271 )
 texture = ExtResource( 2 )
 centered = false
@@ -21,7 +21,7 @@ margin_left = 6.73253
 margin_top = 5.75361
 margin_right = 233.733
 margin_bottom = 19.7536
-text = "Reynaldy Rizki Saputra - 191524301"
+text = "Reynaldy Rizki Saputra - 191524031"
 __meta__ = {
 "_edit_use_anchors_": false
 }
