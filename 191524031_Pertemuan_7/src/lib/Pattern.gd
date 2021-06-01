@@ -17,10 +17,14 @@ func _process(delta):
 
 
 func draw_pattern(start: Vector2, color: Color, degree: float):
+	# get parameter for a pattern component
 	var current = Vector2(start.x + steps * sin(deg2rad(360 - degree)), start.y + steps * cos(deg2rad(degree)))
 	var colors = PoolColorArray([color])
 	var scale_factor = steps * 0.1
 
+	# decide which points should use
+	# if steps < 0, draw and animate square
+	# else, draw and animate v-shaped pattern
 	var points
 	if(steps < 90):
 		points = PoolVector2Array([
@@ -39,4 +43,5 @@ func draw_pattern(start: Vector2, color: Color, degree: float):
 			rotate_point(current + scale_factor * Vector2(1, -1), current, degree),
 		])
 
+	# draw using draw_polygon()
 	draw_polygon(points, colors)
