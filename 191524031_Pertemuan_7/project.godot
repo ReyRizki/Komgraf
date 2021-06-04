@@ -14,35 +14,10 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://src/lib/Colors.gd"
 }, {
-"base": "Stroke",
-"class": "CustomShape",
-"language": "GDScript",
-"path": "res://src/lib/Shape.gd"
-}, {
-"base": "CustomShape",
-"class": "Flower",
-"language": "GDScript",
-"path": "res://src/lib/Flower.gd"
-}, {
 "base": "Transformations",
 "class": "Pattern",
 "language": "GDScript",
 "path": "res://src/lib/Pattern.gd"
-}, {
-"base": "Node2D",
-"class": "Random",
-"language": "GDScript",
-"path": "res://src/lib/Random.gd"
-}, {
-"base": "CustomShape",
-"class": "Smiley",
-"language": "GDScript",
-"path": "res://src/lib/Smiley.gd"
-}, {
-"base": "Transformations",
-"class": "Stroke",
-"language": "GDScript",
-"path": "res://src/lib/Line.gd"
 }, {
 "base": "Node2D",
 "class": "Transformations",
@@ -51,12 +26,7 @@ _global_script_classes=[ {
 } ]
 _global_script_class_icons={
 "Colors": "",
-"CustomShape": "",
-"Flower": "",
 "Pattern": "",
-"Random": "",
-"Smiley": "",
-"Stroke": "",
 "Transformations": ""
 }
 
