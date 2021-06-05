@@ -14,4 +14,48 @@ text = "Back"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Speed_Up" type="Button" parent="."]
+margin_left = 829.45
+margin_top = 10.8911
+margin_right = 914.45
+margin_bottom = 46.8911
+text = "+ Speed"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Speed_Down" type="Button" parent="."]
+margin_left = 926.643
+margin_top = 11.2552
+margin_right = 1011.64
+margin_bottom = 47.2552
+text = "- Speed"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CW" type="Button" parent="."]
+margin_left = 829.45
+margin_top = 56.3783
+margin_right = 914.45
+margin_bottom = 92.3783
+text = "CW"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CCW" type="Button" parent="."]
+margin_left = 926.643
+margin_top = 55.9486
+margin_right = 1011.64
+margin_bottom = 91.9486
+text = "CCW"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Speed_Up" to="." method="_on_Speed_Up_pressed"]
+[connection signal="pressed" from="Speed_Down" to="." method="_on_Speed_Down_pressed"]
+[connection signal="pressed" from="CW" to="." method="_on_CW_pressed"]
+[connection signal="pressed" from="CCW" to="." method="_on_CCW_pressed"]

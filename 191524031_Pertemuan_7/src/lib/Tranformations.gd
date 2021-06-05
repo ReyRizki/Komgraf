@@ -11,11 +11,11 @@ func rotate_point(point:Vector2, center:Vector2, degree: float)->Vector2:
 	var vcos: float = cos(deg2rad(degree))
 	var vsin: float = sin(deg2rad(degree))
 
-	var x1=center.x
-	var y1=center.y
+	var x1 = center.x
+	var y1 = center.y
 
-	var x2=point.x
-	var y2=point.y
+	var x2 = point.x
+	var y2 = point.y
 
 	rotX = (vcos * (x2 - x1)) + (-vsin * (y2 - y1)) + x1
 	rotY = (vsin * (x2 - x1)) + (vcos * (y2 - y1)) + y1
