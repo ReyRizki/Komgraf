@@ -25,14 +25,14 @@ func _on_Button_pressed():
 	get_tree().change_scene("res://scenes/Menu.tscn")
 
 
-
+# button functions to change the speed and roatation orientation
 func _on_Speed_Up_pressed():
 	speed += 1
 
 
 func _on_Speed_Down_pressed():
-	if (speed > 1):
-		speed -= 1
+	# if (speed > 1):
+	speed -= 1
 
 
 func _on_CW_pressed():

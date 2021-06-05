@@ -4,6 +4,7 @@ extends Transformations
 class_name Pattern
 
 
+# animation settings
 var steps = 0
 var speed = 1
 var alter = 1
