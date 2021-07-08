@@ -61,6 +61,6 @@ def render_360(folder, distance):
     
         bpy.ops.object.delete()
     
-folder = "/media/reyrizki/Seagate Backup Plus Drive1/Kuliah/Matkul/Semester 4/Komputer Grafik/Praktek/Pertemuan/W13/Rendering/Graphic/pow(x, 3)/"
+folder = "<Your folder here>"
 distance = 30
 render_360(folder, distance)
