@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Cars/Toyota Corolla AE86 Trueno/Toyota Corolla AE86 Trueno.tscn" type="PackedScene" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.95255, 0 )
+use_collision = true
+width = 200.0
+depth = 200.0
+
+[node name="hachiroku for scetchfab" parent="." instance=ExtResource( 1 )]
+mass = 30.6122
