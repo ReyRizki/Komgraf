@@ -1,14 +1,13 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Cars/Toyota Corolla AE86 Trueno/Toyota Corolla AE86 Trueno.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Map/map.tscn" type="PackedScene" id=2]
 
 [node name="Spatial" type="Spatial"]
 
-[node name="CSGBox" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.95255, 0 )
-use_collision = true
-width = 200.0
-depth = 200.0
-
 [node name="hachiroku for scetchfab" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.669713, 0.0210559, -0.742321, -0.0782747, 0.996031, -0.0423661, 0.738483, 0.0864781, 0.668704, 171.186, 15.7573, -39.7055 )
 mass = 30.6122
+
+[node name="map" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.281525, 0.276688, 0.0884933 )
