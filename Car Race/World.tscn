@@ -7,5 +7,6 @@
 
 [node name="hachiroku for scetchfab" parent="." instance=ExtResource( 1 )]
 transform = Transform( -0.978383, 0, 0.206802, 0, 1, 0, -0.206802, 0, -0.978383, -590.953, 452.839, 985.21 )
+mass = 76.5306
 
 [node name="terrain" parent="." instance=ExtResource( 2 )]
