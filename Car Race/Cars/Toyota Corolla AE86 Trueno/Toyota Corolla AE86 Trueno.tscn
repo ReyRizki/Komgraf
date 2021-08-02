@@ -345,6 +345,12 @@ material/1 = null
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.63697, -0.271986, 2.53031 )
 use_as_steering = true
 wheel_radius = 0.65
+wheel_friction_slip = 100.0
+suspension_travel = 0.3
+suspension_stiffness = 30.0
+suspension_max_force = 500.0
+damping_compression = 0.5
+damping_relaxation = 0.7
 
 [node name="Circle002" type="MeshInstance" parent="LeftFrontWheel"]
 transform = Transform( 0.259658, 0, 0, 0, 0.307287, 0, 0, 0, 0.259658, 0.0348577, 0.00571778, -0.00733995 )
@@ -357,6 +363,12 @@ material/2 = null
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.63697, -0.271986, -2.9785 )
 use_as_traction = true
 wheel_radius = 0.65
+wheel_friction_slip = 100.0
+suspension_travel = 0.3
+suspension_stiffness = 30.0
+suspension_max_force = 500.0
+damping_compression = 0.5
+damping_relaxation = 0.7
 
 [node name="Circle002" type="MeshInstance" parent="LeftRearWheel"]
 transform = Transform( 0.259658, 0, 0, 0, 0.307287, 0, 0, 0, 0.259658, 0.0348577, 0.00571778, -0.00733995 )
@@ -369,6 +381,12 @@ material/2 = null
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.58711, -0.271986, 2.53031 )
 use_as_steering = true
 wheel_radius = 0.65
+wheel_friction_slip = 100.0
+suspension_travel = 0.3
+suspension_stiffness = 30.0
+suspension_max_force = 500.0
+damping_compression = 0.5
+damping_relaxation = 0.7
 
 [node name="Circle003" type="MeshInstance" parent="RightFrontWheel"]
 transform = Transform( -0.259658, 0, -8.46074e-08, 0, 0.307287, 0, 8.46074e-08, 0, -0.259658, -0.0202439, 0.00571778, -0.00734019 )
@@ -381,6 +399,12 @@ material/2 = null
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.58711, -0.271986, -2.98098 )
 use_as_traction = true
 wheel_radius = 0.65
+wheel_friction_slip = 100.0
+suspension_travel = 0.3
+suspension_stiffness = 30.0
+suspension_max_force = 500.0
+damping_compression = 0.5
+damping_relaxation = 0.7
 
 [node name="Circle003" type="MeshInstance" parent="RightRearWheel"]
 transform = Transform( -0.259658, 0, -8.46074e-08, 0, 0.307287, 0, 8.46074e-08, 0, -0.259658, -0.0202439, 0.00571778, -0.00734019 )
@@ -390,4 +414,4 @@ material/1 = null
 material/2 = null
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( -1, -7.81597e-14, -3.25841e-07, -3.54959e-08, 0.994049, 0.108936, 3.23902e-07, 0.108936, -0.994049, -0.102913, 2.93946, -9.02932 )
+transform = Transform( -1, -7.81597e-14, -3.25841e-07, -9.71304e-08, 0.954537, 0.298091, 3.11028e-07, 0.298091, -0.954537, -0.102913, 2.71027, -9.02932 )
