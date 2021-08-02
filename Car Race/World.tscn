@@ -1,7 +1,8 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Cars/Toyota Corolla AE86 Trueno/Toyota Corolla AE86 Trueno.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Maps/Akina/terrain.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Maps/Haruna/full_map.tscn" type="PackedScene" id=2]
+
 
 [node name="Spatial" type="Spatial"]
 
@@ -9,4 +10,4 @@
 transform = Transform( -0.978383, 0, 0.206802, 0, 1, 0, -0.206802, 0, -0.978383, -590.953, 452.839, 985.21 )
 mass = 76.5306
 
-[node name="terrain" parent="." instance=ExtResource( 2 )]
+[node name="full_map" parent="." instance=ExtResource( 2 )]
